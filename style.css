@@ -1,0 +1,32 @@
+body {
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #444;
+  padding: 0 10px;
+  font-family: 'Lora', serif;
+  text-align: justify;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+code {
+  font-family: 'Inconsolata', monospace;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

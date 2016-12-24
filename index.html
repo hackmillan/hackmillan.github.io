@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Palgrave Macmillan discount</title>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Source+Sans+Pro:600" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+  <header><h1>So you've heard about the Palgrave Macmillan £30 discount?</h1></header>
+
+  <p>
+    Palgrave Macmillan are offering £30 off any book until 31st December, even a
+    book under £30. I got a book for free, no postage and packing, no card
+    details.
+  </p>
+
+  <p>
+    Even if you don't really want a book, you should get one anyway. Palgrave
+    are part of Springer, a massive academic publisher who charge extortionate
+    rates for accessing journals and buying books. In many cases, they even
+    charge academics or institutions to publish in their journals &mdash; and then the
+    institution's library has to pay for others to see it. This is a massive
+    enclosure of knowledge. Take what you can from the bastards. If you don't
+    want the book, donate it to a library.
+  </p>
+
+  <p>Merry Christmas.</p>
+
+  <h2>Email addresses</h2>
+
+  <p>
+    After you've bought a book, you can log out and buy another one (and
+    another, etc.) if you use a different email address. If you have a Gmail
+    address, it's super easy to create a new email address that goes to your
+    normal inbox, just add a '+' and some random junk to the end of your
+    username.
+  </p>
+
+  <p>
+    So if your email is <code>joe.bloggs@gmail.com</code>, you can sign up with
+    <code>joe.bloggs+aardvark@gmail.com</code> and it'll be a valid email
+    address that goes to your inbox. As will
+    <code>joe.bloggs+aardwolf@gmail.com</code>, and
+    <code>joe.bloggs+badger@gmail.com</code>.
+  </p>
+
+  <h2>Searching for books under £30</h2>
+
+  <p>
+    Annoyingly, the site's search function doesn't let you filter by price, so I
+    found myself trawling through hundreds of pages of books that I couldn't
+    afford.
+  </p>
+
+  <p>So I made a bookmarklet.</p>
+
+  <p>
+     If you drag and drop this link, <a href="javascript:(function () {var
+     prices = document.getElementsByClassName('price'); for (i = 0; i <
+     prices.length; i++) { if (prices[i].innerHTML.slice(1) - 0 > 30) {
+     prices[i].parentElement.parentElement.style.display = 'none'; } }})()">Less
+     than £30</a>, to your bookmarks bar, then click it when you're on the
+     search results page, it will hide any books that cost more than £30.
+  </p>
+
+  <p>You're welcome.</p>
+
+  <p><a href="https://www.palgrave.com/gb/">https://www.palgrave.com/gb/</a></p>
+</body>
+</html>
